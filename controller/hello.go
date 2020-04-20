@@ -1,9 +1,9 @@
 package controller
 
 import (
-	. "awesomeProject/util"
 	"fmt"
 	"github.com/gin-gonic/gin"
+	. "golang-curd-boy/util"
 )
 
 type HelloRequest struct {

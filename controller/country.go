@@ -1,9 +1,9 @@
 package controller
 
 import (
-	. "awesomeProject/model"
-	. "awesomeProject/util"
 	"github.com/gin-gonic/gin"
+	. "golang-curd-boy/model"
+	. "golang-curd-boy/util"
 	"strconv"
 )
 

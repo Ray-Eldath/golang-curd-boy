@@ -1,13 +1,13 @@
 package main
 
 import (
-	. "awesomeProject/controller"
-	"awesomeProject/model"
-	. "awesomeProject/util"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	. "golang-curd-boy/controller"
+	"golang-curd-boy/model"
+	. "golang-curd-boy/util"
 	"log"
 	"os"
 )

@@ -1,7 +1,7 @@
 package model
 
 import (
-	. "awesomeProject/util"
+	. "golang-curd-boy/util"
 )
 
 type Continent struct {

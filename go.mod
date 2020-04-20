@@ -1,4 +1,4 @@
-module awesomeProject
+module golang-curd-boy
 
 go 1.14
 

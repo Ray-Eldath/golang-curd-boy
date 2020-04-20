@@ -1,8 +1,8 @@
 package controller
 
 import (
-	. "awesomeProject/util"
 	"github.com/gin-gonic/gin"
+	. "golang-curd-boy/util"
 )
 
 func RegisterResponseTest(engine *gin.Engine) {
