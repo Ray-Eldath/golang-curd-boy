@@ -1,5 +1,9 @@
 package model
 
+type IDResponse struct {
+	ID int32 `json:"id"`
+}
+
 type ListResponse struct {
 	Total int32       `json:"total"`
 	List  interface{} `json:"list"`
@@ -15,3 +19,5 @@ func (p Pagination) Paged() (limit int32, offset int32) {
 	offset = (p.Page - 1) * p.PrePage
 	return
 }
+
+var SingleElementPage = &Pagination{Page: 1, PrePage: 1}

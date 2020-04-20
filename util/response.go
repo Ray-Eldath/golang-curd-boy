@@ -45,6 +45,10 @@ func Respond(response Response, c *gin.Context) {
 	c.AbortWithStatusJSON(response.HttpCode, response)
 }
 
+func RespondOkStatus(c *gin.Context) {
+	c.AbortWithStatus(http.StatusOK)
+}
+
 func RespondOk(data interface{}, c *gin.Context) {
 	Respond(Ok(data), c)
 }
